@@ -1,0 +1,136 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/paragraph",
+  "title": "Paragraph",
+  "category": "blockwheels",
+  "description": "Start with the basic paragraph block.",
+  "keywords": [
+    "paragraph",
+    "textarea"
+  ],
+  "textdomain": "blockwheels",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "postId": {
+      "type": "integer"
+    },
+    "paragraph": {
+      "type": "string",
+      "source": "html",
+      "selector": ".blockwheels-paragraph-block"
+    },
+    "alignment": {
+      "type": "object",
+      "default": {
+        "desktop": "left",
+        "tablet": "left",
+        "mobile": "left"
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    },
+    "fontFamily": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "fontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "fontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "letterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "textColor": {
+      "type": "string"
+    },
+    "customBackgroundColor": {
+      "type": "string"
+    },
+    "customTextColor": {
+      "type": "string"
+    },
+    "linkColor": {
+      "type": "string"
+    },
+    "linkHoverColor": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "attributes": {
+      "paragraph": "Blockwheels Paragraph"
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "className": false,
+    "__unstablePasteTextInline": true,
+    "__experimentalSlashInserter": true,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

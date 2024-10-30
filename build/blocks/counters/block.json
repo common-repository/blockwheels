@@ -1,0 +1,191 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/counters",
+  "title": "counters",
+  "category": "blockwheels",
+  "icon": "groups",
+  "description": "Utilize the counter block to highlight your company statics and milestones.",
+  "keywords": [
+    "Counters",
+    "Grid"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "blockwheels",
+  "providesContext": {
+    "blockwheels/counters-icon-position": "iconPosition",
+    "blockwheels/counters-content-align": "contentAlign",
+    "blockwheels/counters-show-name": "enableName",
+    "blockwheels/counters-number-position": "numberPosition"
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "object",
+      "default": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      }
+    },
+    "colBorderRadius": {
+      "type": "string",
+      "default": "4px"
+    },
+    "colPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        },
+        "tablet": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        },
+        "mobile": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        }
+      }
+    },
+    "colMargin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    },
+    "colBgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "colBgGradient": {
+      "type": "string"
+    },
+    "numberPosition": {
+      "type": "string",
+      "default": "flex-column"
+    },
+    "numberFontFamily": {
+      "type": "string"
+    },
+    "numberFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "numberFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "numberFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "numberLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "numberFontColor": {
+      "type": "string",
+      "default": "#1e486f"
+    },
+    "nameFontFamily": {
+      "type": "string"
+    },
+    "nameFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "nameFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "nameFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "nameLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "nameFontColor": {
+      "type": "string",
+      "default": "#666666"
+    },
+    "enableName": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentAlign": {
+      "type": "object",
+      "default": {
+        "desktop": "center",
+        "tablet": "center",
+        "mobile": "center"
+      }
+    },
+    "iconPosition": {
+      "type": "object",
+      "default": {
+        "desktop": "flex-column",
+        "tablet": "flex-column",
+        "mobile": "flex-column"
+      }
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "blockwheels/counter",
+        "attributes": {
+          "numberEnd": 20,
+          "name": "Awards Won",
+          "iconSource": "icon",
+          "counterIcon": "fas fa-trophy"
+        }
+      }
+    ]
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

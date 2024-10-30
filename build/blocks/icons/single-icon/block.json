@@ -1,0 +1,105 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/single-icon",
+  "title": "Single Icon",
+  "category": "blockwheels",
+  "textdomain": "blockwheels",
+  "supports": {
+    "reusable": false,
+    "html": false
+  },
+  "parent": [
+    "blockwheels/icons"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "postId": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string",
+      "default": "fa_wordpress"
+    },
+    "link": {
+      "type": "string",
+      "default": ""
+    },
+    "target": {
+      "type": "string",
+      "default": "_self"
+    },
+    "linkTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "iconSize": {
+      "type": "object",
+      "default": {
+        "desktop": "50px",
+        "tablet": "50px",
+        "mobile": "50px"
+      }
+    },
+    "iconWidth": {
+      "type": "number",
+      "default": 2
+    },
+    "iconBgSize": {
+      "type": "object",
+      "default": {
+        "desktop": "15px",
+        "tablet": "15px",
+        "mobile": "15px"
+      }
+    },
+    "iconBorderRadius": {
+      "type": "string"
+    },
+    "iconBorderWidth": {
+      "type": "string",
+      "default": "1px"
+    },
+    "iconBorderStyle": {
+      "type": "string",
+      "default": "none"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "iconHoverColor": {
+      "type": "string"
+    },
+    "iconBgColor": {
+      "type": "string",
+      "default": "#abb8c3"
+    },
+    "iconBgGradient": {
+      "type": "string"
+    },
+    "iconHoverBgColor": {
+      "type": "string"
+    },
+    "iconHoverBgGradient": {
+      "type": "string"
+    },
+    "iconBorderColor": {
+      "type": "string"
+    },
+    "iconHoverBorderColor": {
+      "type": "string"
+    }
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

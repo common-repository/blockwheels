@@ -1,0 +1,126 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/spacer",
+  "description": "Create a break between ideas or sections with a horizontal separator.",
+  "version": "1.0.0",
+  "title": "Spacer/Divider",
+  "category": "blockwheels",
+  "keywords": [
+    "spacer",
+    "divider"
+  ],
+  "textdomain": "blockwheels",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "spacerHeight": {
+      "type": "object",
+      "default": {
+        "desktop": "60px",
+        "tablet": "60px",
+        "mobile": "60px"
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    },
+    "enableDivider": {
+      "type": "boolean",
+      "default": true
+    },
+    "dividerAlign": {
+      "type": "object",
+      "default": {
+        "desktop": "left",
+        "tablet": "left",
+        "mobile": "left"
+      }
+    },
+    "dividerStyle": {
+      "type": "string",
+      "default": "solid"
+    },
+    "dividerHeight": {
+      "type": "object",
+      "default": {
+        "desktop": "2px",
+        "tablet": "2px",
+        "mobile": "2px"
+      }
+    },
+    "dividerWidth": {
+      "type": "object",
+      "default": {
+        "desktop": "80%",
+        "tablet": "80%",
+        "mobile": "80%"
+      }
+    },
+    "dividerColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true
+  },
+  "example": {
+    "attributes": {
+      "enableDivider": true
+    }
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css",
+    "blockwheels-public-style"
+  ],
+  "style": [
+    "file:style-index.css",
+    "blockwheels-public-style"
+  ]
+}

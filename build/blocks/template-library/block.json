@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/template-library",
+  "title": "Template Library",
+  "category": "blockwheels",
+  "description": "Import Blocks and Templates Library",
+  "keywords": [
+    "template",
+    "section",
+    "blocks",
+    "library"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "blockwheels",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "isPrebuiltModal": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "editorScript": "file:index.js",
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

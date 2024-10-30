@@ -1,0 +1,94 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/google-map",
+  "title": "Google Map",
+  "description": "Add an address or location to drop a pin on a Google Map.",
+  "category": "blockwheels",
+  "textdomain": "blockwheels",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "default": "Amsterdam"
+    },
+    "mapType": {
+      "type": "string",
+      "enum": [
+        "roadmap",
+        "satellite"
+      ],
+      "default": "roadmap"
+    },
+    "language": {
+      "type": "string",
+      "default": "en"
+    },
+    "mapFilterAmount": {
+      "type": "number",
+      "default": 50
+    },
+    "zoom": {
+      "type": "number",
+      "default": 11
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    }
+  },
+  "example": {},
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/testimonial",
+  "title": "Testimonial",
+  "category": "blockwheels",
+  "description": "A testimonial item.",
+  "textdomain": "blockwheels",
+  "supports": {
+    "reusable": false,
+    "html": false
+  },
+  "parent": [
+    "blockwheels/testimonials"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "presetDesign": {
+      "type": "string",
+      "default": "card"
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "showQuotes": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "showName": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDesignation": {
+      "type": "boolean",
+      "default": true
+    },
+    "name": {
+      "type": "string",
+      "source": "html",
+      "selector": "h6"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "id": {
+      "type": "number"
+    },
+    "alt": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "alt",
+      "default": ""
+    },
+    "url": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "src"
+    },
+    "customLink": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "href",
+      "default": "#"
+    }
+  },
+  "usesContext": [
+    "blockwheels/testimonials-preset",
+    "blockwheels/testimonials-show-image",
+    "blockwheels/testimonials-show-quotes",
+    "blockwheels/testimonials-show-description",
+    "blockwheels/testimonials-show-name",
+    "blockwheels/testimonials-show-designation"
+  ],
+  "editorScript": "file:index.js",
+  "editorStyle": "file:index.css",
+  "style": "file:style-index.css"
+}

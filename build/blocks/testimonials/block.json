@@ -1,0 +1,220 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/testimonials",
+  "title": "Testimonials",
+  "category": "blockwheels",
+  "icon": "groups",
+  "description": "Insert a testimonial or review with the option to add author information.",
+  "keywords": [
+    "Testimonial",
+    "Client",
+    "Grid"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "blockwheels",
+  "providesContext": {
+    "blockwheels/testimonials-preset": "contentLayout",
+    "blockwheels/testimonials-show-image": "enableImage",
+    "blockwheels/testimonials-show-quotes": "enableQuotes",
+    "blockwheels/testimonials-show-description": "enableDescription",
+    "blockwheels/testimonials-show-name": "enableName",
+    "blockwheels/testimonials-show-designation": "enableDesignation"
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "object",
+      "default": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      }
+    },
+    "colBorderRadius": {
+      "type": "string"
+    },
+    "colPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "colMargin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#f9f8f8"
+    },
+    "backgroundGradient": {
+      "type": "string"
+    },
+    "contentLayout": {
+      "type": "string",
+      "default": "card"
+    },
+    "enableImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableQuotes": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableName": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDesignation": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentAlign": {
+      "type": "object",
+      "default": {
+        "desktop": "left",
+        "tablet": "left",
+        "mobile": "left"
+      }
+    },
+    "contentPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        },
+        "tablet": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        },
+        "mobile": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        }
+      }
+    },
+    "imageRatio": {
+      "type": "string",
+      "default": "4x3"
+    },
+    "imageRadius": {
+      "type": "string"
+    },
+    "quotesColor": {
+      "type": "string",
+      "default": "#abb8c3"
+    },
+    "descriptionFontFamily": {
+      "type": "string"
+    },
+    "descriptionFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "descriptionFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "descriptionFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "descriptionLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "descriptionFontColor": {
+      "type": "string",
+      "default": "#565656"
+    },
+    "nameFontFamily": {
+      "type": "string"
+    },
+    "nameFontWeight": {
+      "type": "string",
+      "default": "600"
+    },
+    "nameFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "nameFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "nameLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "nameFontColor": {
+      "type": "string",
+      "default": "#565656"
+    }
+  },
+  "editorScript": "file:index.js",
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

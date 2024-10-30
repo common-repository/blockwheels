@@ -1,0 +1,82 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/counter",
+  "title": "Counter",
+  "category": "blockwheels",
+  "description": "A single counter item within a counters block.",
+  "textdomain": "blockwheels",
+  "supports": {
+    "reusable": false,
+    "html": false
+  },
+  "parent": [
+    "blockwheels/counters"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "colBgColor": {
+      "type": "string"
+    },
+    "colBgGradient": {
+      "type": "string"
+    },
+    "contentTextAlign": {
+      "type": "object",
+      "default": {
+        "desktop": "center",
+        "tablet": "center",
+        "mobile": "center"
+      }
+    },
+    "inheritNumbPosition": {
+      "type": "string",
+      "default": "flex-column"
+    },
+    "numberStart": {
+      "type": "integer",
+      "default": "0"
+    },
+    "numberEnd": {
+      "type": "integer",
+      "default": "130"
+    },
+    "numberSuffix": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "number",
+      "default": 2.5
+    },
+    "name": {
+      "type": "string",
+      "source": "html",
+      "selector": "h4"
+    },
+    "desc": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "showName": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "usesContext": [
+    "blockwheels/counters-content-align",
+    "blockwheels/counters-show-name",
+    "blockwheels/counters-number-position"
+  ],
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

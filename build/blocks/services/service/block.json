@@ -1,0 +1,136 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/service",
+  "title": "Service",
+  "category": "blockwheels",
+  "description": "A single service item within a services block.",
+  "textdomain": "blockwheels",
+  "supports": {
+    "reusable": false,
+    "html": false
+  },
+  "parent": [
+    "blockwheels/services"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "postId": {
+      "type": "integer"
+    },
+    "colBgColor": {
+      "type": "string"
+    },
+    "colBgGradient": {
+      "type": "string"
+    },
+    "contentTextAlign": {
+      "type": "object",
+      "default": {
+        "desktop": "center",
+        "tablet": "center",
+        "mobile": "center"
+      }
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "iconBgColor": {
+      "type": "string",
+      "default": "#abb8c3"
+    },
+    "iconBgGradient": {
+      "type": "string"
+    },
+    "iconSource": {
+      "type": "string",
+      "default": "icon"
+    },
+    "serviceIcon": {
+      "type": "string",
+      "default": "fa_wordpress"
+    },
+    "serviceIconWidth": {
+      "type": "number",
+      "default": 2
+    },
+    "name": {
+      "type": "string",
+      "source": "html",
+      "selector": "h4"
+    },
+    "desc": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "id": {
+      "type": "number"
+    },
+    "alt": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "alt",
+      "default": ""
+    },
+    "url": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "src"
+    },
+    "buttons": {
+      "type": "array",
+      "default": [],
+      "source": "query",
+      "selector": ".blockwheels-service-buttons ul li",
+      "query": {
+        "text": {
+          "source": "attribute",
+          "attribute": "data-text"
+        },
+        "link": {
+          "source": "attribute",
+          "selector": "a",
+          "attribute": "href"
+        },
+        "target": {
+          "source": "attribute",
+          "selector": "a",
+          "attribute": "target",
+          "default": "_self"
+        }
+      }
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "showButtons": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "showName": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "usesContext": [
+    "blockwheels/services-content-align",
+    "blockwheels/services-show-image",
+    "blockwheels/services-show-name",
+    "blockwheels/services-show-description",
+    "blockwheels/services-show-buttons"
+  ],
+  "editorScript": "file:index.js",
+  "editorStyle": "file:index.css",
+  "style": "file:style-index.css"
+}

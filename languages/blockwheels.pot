@@ -1,0 +1,740 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BlockWheels\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-30 04:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: blockwheels"
+
+#: includes/blocks/class-blockwheels-grid-posts.php:575
+msgid "% Comments"
+msgstr ""
+
+#: includes/blocks/class-blockwheels-grid-posts.php:574
+msgid "1 Comment"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:101
+msgid "Accordion"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:136
+msgid ""
+"Add an appealing masonry effect to images in posts, custom posts, and pages "
+"with ease."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:57
+msgid ""
+"Add and edit the text within the block editor using Paragraph Block. Create "
+"easy-to-read and well-structured content using a versatile and user-friendly "
+"interface."
+msgstr ""
+
+#: build/blocks/counters/counter/block.json:1
+#: src/blocks/counters/counter/block.json:1
+msgctxt "block description"
+msgid "A single counter item within a counters block."
+msgstr ""
+
+#: build/blocks/services/service/block.json:1
+#: src/blocks/services/service/block.json:1
+msgctxt "block description"
+msgid "A single service item within a services block."
+msgstr ""
+
+#: build/blocks/testimonials/testimonial/block.json:1
+#: src/blocks/testimonials/testimonial/block.json:1
+msgctxt "block description"
+msgid "A testimonial item."
+msgstr ""
+
+#: build/blocks/icons/block.json:1 src/blocks/icons/block.json:1
+msgctxt "block description"
+msgid "Add a stylized graphic symbol to communicate something more."
+msgstr ""
+
+#: build/blocks/google-map/block.json:1 src/blocks/google-map/block.json:1
+msgctxt "block description"
+msgid "Add an address or location to drop a pin on a Google Map."
+msgstr ""
+
+#: build/blocks/logo-carousel/block.json:1
+#: src/blocks/logo-carousel/block.json:1
+msgctxt "block description"
+msgid "Add logos, badges or certifications to build credibility as a carousel."
+msgstr ""
+
+#: build/blocks/spacer/block.json:1 src/blocks/spacer/block.json:1
+msgctxt "block description"
+msgid "Create a break between ideas or sections with a horizontal separator."
+msgstr ""
+
+#: build/blocks/grid-posts/block.json:1 src/blocks/grid-posts/block.json:1
+msgctxt "block description"
+msgid "Display and filter latest posts in grid style."
+msgstr ""
+
+#: build/blocks/video-box/block.json:1 src/blocks/video-box/block.json:1
+msgctxt "block description"
+msgid "Embed a video from your media library or a upload new one."
+msgstr ""
+
+#: build/blocks/template-library/block.json:1
+#: src/blocks/template-library/block.json:1
+msgctxt "block description"
+msgid "Import Blocks and Templates Library"
+msgstr ""
+
+#: build/blocks/testimonials/block.json:1 src/blocks/testimonials/block.json:1
+msgctxt "block description"
+msgid ""
+"Insert a testimonial or review with the option to add author information."
+msgstr ""
+
+#: build/blocks/services/block.json:1 src/blocks/services/block.json:1
+msgctxt "block description"
+msgid "Services to display."
+msgstr ""
+
+#: build/blocks/heading/block.json:1 src/blocks/heading/block.json:1
+msgctxt "block description"
+msgid ""
+"Start with the basic heading to help visitors understand the structure of "
+"your content."
+msgstr ""
+
+#: build/blocks/paragraph/block.json:1 src/blocks/paragraph/block.json:1
+msgctxt "block description"
+msgid "Start with the basic paragraph block."
+msgstr ""
+
+#: build/blocks/counters/block.json:1 src/blocks/counters/block.json:1
+msgctxt "block description"
+msgid ""
+"Utilize the counter block to highlight your company statics and milestones."
+msgstr ""
+
+#: build/blocks/container/block.json:1 src/blocks/container/block.json:1
+msgctxt "block description"
+msgid ""
+"You can include any kind of block inside a container. It is a great block to "
+"be used on colored backgrounds."
+msgstr ""
+
+#: build/blocks/template-library/block.json:1
+#: src/blocks/template-library/block.json:1
+msgctxt "block keyword"
+msgid "blocks"
+msgstr ""
+
+#: build/blocks/services/block.json:1 src/blocks/services/block.json:1
+msgctxt "block keyword"
+msgid "Blurb"
+msgstr ""
+
+#: build/blocks/logo-carousel/block.json:1
+#: src/blocks/logo-carousel/block.json:1
+msgctxt "block keyword"
+msgid "Carousel"
+msgstr ""
+
+#: build/blocks/testimonials/block.json:1 src/blocks/testimonials/block.json:1
+msgctxt "block keyword"
+msgid "Client"
+msgstr ""
+
+#: build/blocks/container/block.json:1 src/blocks/container/block.json:1
+msgctxt "block keyword"
+msgid "column"
+msgstr ""
+
+#: build/blocks/container/block.json:1 src/blocks/container/block.json:1
+msgctxt "block keyword"
+msgid "container"
+msgstr ""
+
+#: build/blocks/counters/block.json:1 src/blocks/counters/block.json:1
+msgctxt "block keyword"
+msgid "Counters"
+msgstr ""
+
+#: build/blocks/spacer/block.json:1 src/blocks/spacer/block.json:1
+msgctxt "block keyword"
+msgid "divider"
+msgstr ""
+
+#: build/blocks/testimonials/block.json:1 build/blocks/counters/block.json:1
+#: build/blocks/grid-posts/block.json:1 build/blocks/services/block.json:1
+#: src/blocks/testimonials/block.json:1 src/blocks/counters/block.json:1
+#: src/blocks/grid-posts/block.json:1 src/blocks/services/block.json:1
+msgctxt "block keyword"
+msgid "Grid"
+msgstr ""
+
+#: build/blocks/heading/block.json:1 src/blocks/heading/block.json:1
+msgctxt "block keyword"
+msgid "heading"
+msgstr ""
+
+#: build/blocks/grid-posts/block.json:1 src/blocks/grid-posts/block.json:1
+msgctxt "block keyword"
+msgid "Latest"
+msgstr ""
+
+#: build/blocks/template-library/block.json:1
+#: src/blocks/template-library/block.json:1
+msgctxt "block keyword"
+msgid "library"
+msgstr ""
+
+#: build/blocks/logo-carousel/block.json:1
+#: src/blocks/logo-carousel/block.json:1
+msgctxt "block keyword"
+msgid "Logos"
+msgstr ""
+
+#: build/blocks/paragraph/block.json:1 src/blocks/paragraph/block.json:1
+msgctxt "block keyword"
+msgid "paragraph"
+msgstr ""
+
+#: build/blocks/grid-posts/block.json:1 src/blocks/grid-posts/block.json:1
+msgctxt "block keyword"
+msgid "Posts"
+msgstr ""
+
+#: build/blocks/template-library/block.json:1
+#: build/blocks/container/block.json:1 src/blocks/template-library/block.json:1
+#: src/blocks/container/block.json:1
+msgctxt "block keyword"
+msgid "section"
+msgstr ""
+
+#: build/blocks/services/block.json:1 src/blocks/services/block.json:1
+msgctxt "block keyword"
+msgid "Services"
+msgstr ""
+
+#: build/blocks/spacer/block.json:1 src/blocks/spacer/block.json:1
+msgctxt "block keyword"
+msgid "spacer"
+msgstr ""
+
+#: build/blocks/template-library/block.json:1
+#: src/blocks/template-library/block.json:1
+msgctxt "block keyword"
+msgid "template"
+msgstr ""
+
+#: build/blocks/testimonials/block.json:1 src/blocks/testimonials/block.json:1
+msgctxt "block keyword"
+msgid "Testimonial"
+msgstr ""
+
+#: build/blocks/heading/block.json:1 src/blocks/heading/block.json:1
+msgctxt "block keyword"
+msgid "text"
+msgstr ""
+
+#: build/blocks/paragraph/block.json:1 src/blocks/paragraph/block.json:1
+msgctxt "block keyword"
+msgid "textarea"
+msgstr ""
+
+#: build/blocks/container/block.json:1 src/blocks/container/block.json:1
+msgctxt "block title"
+msgid "Container"
+msgstr ""
+
+#: build/blocks/counters/counter/block.json:1
+#: src/blocks/counters/counter/block.json:1
+msgctxt "block title"
+msgid "Counter"
+msgstr ""
+
+#: build/blocks/counters/block.json:1 src/blocks/counters/block.json:1
+msgctxt "block title"
+msgid "counters"
+msgstr ""
+
+#: build/blocks/google-map/block.json:1 src/blocks/google-map/block.json:1
+msgctxt "block title"
+msgid "Google Map"
+msgstr ""
+
+#: build/blocks/grid-posts/block.json:1 src/blocks/grid-posts/block.json:1
+msgctxt "block title"
+msgid "Grid Posts"
+msgstr ""
+
+#: build/blocks/heading/block.json:1 src/blocks/heading/block.json:1
+msgctxt "block title"
+msgid "Heading"
+msgstr ""
+
+#: build/blocks/icons/block.json:1 src/blocks/icons/block.json:1
+msgctxt "block title"
+msgid "Icons"
+msgstr ""
+
+#: build/blocks/logo-carousel/block.json:1
+#: src/blocks/logo-carousel/block.json:1
+msgctxt "block title"
+msgid "Logo Carousel"
+msgstr ""
+
+#: build/blocks/accordion/panel/block.json:1
+#: src/blocks/accordion/panel/block.json:1
+msgctxt "block title"
+msgid "Panel"
+msgstr ""
+
+#: build/blocks/paragraph/block.json:1 src/blocks/paragraph/block.json:1
+msgctxt "block title"
+msgid "Paragraph"
+msgstr ""
+
+#: build/blocks/services/service/block.json:1
+#: src/blocks/services/service/block.json:1
+msgctxt "block title"
+msgid "Service"
+msgstr ""
+
+#: build/blocks/services/block.json:1 src/blocks/services/block.json:1
+msgctxt "block title"
+msgid "services"
+msgstr ""
+
+#: build/blocks/icons/single-icon/block.json:1
+#: src/blocks/icons/single-icon/block.json:1
+msgctxt "block title"
+msgid "Single Icon"
+msgstr ""
+
+#: build/blocks/spacer/block.json:1 src/blocks/spacer/block.json:1
+msgctxt "block title"
+msgid "Spacer/Divider"
+msgstr ""
+
+#: build/blocks/template-library/block.json:1
+#: src/blocks/template-library/block.json:1
+msgctxt "block title"
+msgid "Template Library"
+msgstr ""
+
+#: build/blocks/testimonials/testimonial/block.json:1
+#: src/blocks/testimonials/testimonial/block.json:1
+msgctxt "block title"
+msgid "Testimonial"
+msgstr ""
+
+#: build/blocks/testimonials/block.json:1 src/blocks/testimonials/block.json:1
+msgctxt "block title"
+msgid "Testimonials"
+msgstr ""
+
+#: build/blocks/video-box/block.json:1 src/blocks/video-box/block.json:1
+msgctxt "block title"
+msgid "Video Box"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-blockwheels-admin.php:67
+msgid "BlockWheels"
+msgstr ""
+
+#: includes/class-blockwheels-assets.php:70
+msgid "Blockwheels"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"BlockWheels provides interactive Gutenberg blocks within the WordPress block "
+"editor. Create engaging posts and pages by using a variety of features, "
+"including post grids, post blocks, and more. It serves as a flexible page "
+"builder, accommodating blocks, patterns, templates, and full-site editing."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:201
+msgid "Browse Docs"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:38
+msgid "Buy Pro"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:160
+msgid "Circular Progress Bar"
+msgstr ""
+
+#: includes/blocks/class-blockwheels-grid-posts.php:577
+msgid "Comments are Closed"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:77
+msgid ""
+"Compatible with popular video platforms with extensive customization options."
+" Impressively showcase the audio and video content of the choice."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:46
+msgid "Container"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:166
+msgid "CountDown"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:111
+msgid "Counters"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:118
+msgid ""
+"Create a visually impressive EXPERIENCE with the Hero Slider, impressing "
+"your site visitors with a memorable first impression."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:82
+msgid ""
+"Create testimonials and display positive customer comments in various ways "
+"to build trust and credibility."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:72
+msgid ""
+"Creatively showcase contains within box format, complete with icons, titles, "
+"descriptions, and any information."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:142
+msgid ""
+"Customize Lottie animations effortlessly to match your brand identity, "
+"staying sharp at any size."
+msgstr ""
+
+#: includes/class-blockwheels-starter-templates.php:246
+msgid "Demo Importer"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:112
+msgid ""
+"Display statistics in a fun and interesting way to highlight your "
+"achievements or company data."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:130
+msgid ""
+"Display your personal or company portfolio items beautifully. The portfolio "
+"plugin includes a widget and a carousel slider with customizable item "
+"display settings."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:197
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:47
+msgid ""
+"Easily add columns and any blocks either individual or groups of blocks. "
+"Customize options to tailor the container as per the requirements."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:92
+msgid ""
+"Easily create a post grid layout for displaying posts and thumbnails using "
+"the WordPress block editor."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:124
+msgid ""
+"Easily showcase your team with pictures, positions, bios, and social links "
+"using a simple shortcode."
+msgstr ""
+
+#: admin/class-blockwheels-admin.php:122
+msgid "Getting Started"
+msgstr ""
+
+#: admin/class-blockwheels-admin.php:121
+msgid "Getting Started Page"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:26
+msgid "Getting Started To BlockWheels"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:106
+msgid "Google Map"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:91
+msgid "Grid Posts"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:29
+msgid "Gutenberg Blocks for Page Builder"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:207
+msgid ""
+"Have a question, we are happy to help! Get in touch with our support team."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:51
+msgid "Heading"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:117
+msgid "Hero Slider"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpwheels.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpwheels.com/plugins/blockwheels/"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:147
+msgid "Icon List"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:71
+msgid "Icons"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:67
+msgid ""
+"Includes a collection of pre-designed web pages and pattern layouts that are "
+"creative and functional."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:107
+msgid ""
+"Integrates the Google Maps features and functionalities. Enables display "
+"maps, access to location information, generate directions, and other related "
+"functionalities."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:189
+msgid ""
+"Join our community of fellow blockwheels users creating effective websites! "
+"Share your site, ask a question and help others."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:192
+msgid "Join our Facebook Group"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:96
+msgid "Logo Carousel"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:141
+msgid "Lottie Animation"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:135
+msgid "Masonry Gallery"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:198
+msgid ""
+"Need help? We have a knowledge base full of articles to get you started."
+msgstr ""
+
+#: includes/class-blockwheels-prebuilt-library.php:471
+msgid "No data"
+msgstr ""
+
+#: includes/class-blockwheels-prebuilt-library.php:401
+#: includes/class-blockwheels-prebuilt-library.php:422
+#: includes/class-blockwheels-prebuilt-library.php:449
+#: includes/class-blockwheels-prebuilt-library.php:652
+msgid "No library data"
+msgstr ""
+
+#: includes/class-blockwheels-prebuilt-library.php:703
+msgid "Once Monthly"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:52
+msgid ""
+"Organize your content and improve website readability by humans and search "
+"engines."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:56
+msgid "Paragraph"
+msgstr ""
+
+#: includes/class-blockwheels-starter-templates.php:126
+msgid ""
+"Please install & activate One click Demo Import plugin for the starter "
+"templates."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:129
+msgid "Portfolios"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:148
+msgid ""
+"Presenting a comprehensive list of icons within a structured box format, "
+"inclusive of icon images, corresponding titles, detailed descriptions, and "
+"relevant supplementary information."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:172
+msgid "Price Menu"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:116
+#: admin/partials/blockwheels-admin-display.php:122
+#: admin/partials/blockwheels-admin-display.php:128
+#: admin/partials/blockwheels-admin-display.php:134
+#: admin/partials/blockwheels-admin-display.php:140
+#: admin/partials/blockwheels-admin-display.php:146
+#: admin/partials/blockwheels-admin-display.php:153
+#: admin/partials/blockwheels-admin-display.php:159
+#: admin/partials/blockwheels-admin-display.php:165
+#: admin/partials/blockwheels-admin-display.php:171
+#: admin/partials/blockwheels-admin-display.php:177
+msgid "PRO"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:154
+msgid "Progress Bar"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:86
+msgid "Services"
+msgstr ""
+
+#: admin/class-blockwheels-admin.php:130 admin/class-blockwheels-admin.php:131
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:178
+msgid "Shape Divider"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:97
+msgid ""
+"Showcase a group of logo images in an attractive carousel using an intuitive "
+"Shortcode Generator. It’s very user-friendly and convenient to manage."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:87
+msgid ""
+"Showcase your services professionally with a new block in the Block Editor, "
+"creating a stunning service section."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:61
+msgid "Spacer/Divider"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:210
+msgid "Submit a Ticket"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:206
+msgid "Support"
+msgstr ""
+
+#: includes/class-blockwheels-google-fonts.php:74
+msgid "System Font"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:123
+msgid "Team Members"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:66
+msgid "Template Library"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:81
+msgid "Testimonials"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:161
+msgid ""
+"The Circular Progress Bar WPWheels block offers a dynamic way to showcase "
+"your skills. Simply input your skill name and proficiency percentage, and "
+"the block will generate a visually appealing circular progress indicator "
+"that illustrates your expertise in a clear, engaging manner out of 100%."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:167
+msgid ""
+"The Countdown WPWheels block allows users to set and display a countdown "
+"timer, customizable by date and time, providing a clear visual "
+"representation of the remaining time for any event or deadline."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:173
+msgid ""
+"The Price Menu WPWheels block allows you to effortlessly design and display "
+"menu items with titles, descriptions, and prices. Featuring two versatile "
+"presets for styling, this block is ideal for presenting your offerings in a "
+"neat and well-organized layout."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:155
+msgid ""
+"The Progress Bar WPWheels block visually represents skill levels with a "
+"linear progress bar. Customize colors, backgrounds, and more to match your "
+"style, offering a straightforward way to display progress and proficiency."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:179
+msgid ""
+"The Shape Divider WPWheels  block allows you to add stylish, customizable "
+"shapes to the top or bottom of your sections, enhancing the design. You can "
+"also apply background colors for added visual impact, making your content "
+"stand out beautifully."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:62
+msgid ""
+"Use the WordPress Spacer block to create appealing space between blocks, "
+"making your content more attractive and readable."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:76
+msgid "Video Box"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:34
+msgid "View Demo"
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:102
+msgid ""
+"Want to display your content interestingly and more easily to browse through?"
+" Accordion will allow you to to present the information interactively "
+"through click and expand patterns."
+msgstr ""
+
+#: admin/partials/blockwheels-admin-display.php:188
+msgid "Web Creators Community"
+msgstr ""
+
+#. Author of the plugin
+msgid "wpwheels"
+msgstr ""

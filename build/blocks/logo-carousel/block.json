@@ -1,0 +1,151 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/logo-carousel",
+  "description": "Add logos, badges or certifications to build credibility as a carousel.",
+  "version": "1.0.0",
+  "title": "Logo Carousel",
+  "category": "blockwheels",
+  "keywords": [
+    "Logos",
+    "Carousel"
+  ],
+  "textdomain": "blockwheels",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "sliderId": {
+      "type": "string"
+    },
+    "images": {
+      "type": "array"
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    },
+    "slidePerView": {
+      "type": "object",
+      "default": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      }
+    },
+    "autoPlay": {
+      "type": "boolean",
+      "default": true
+    },
+    "pauseOnHover": {
+      "type": "boolean",
+      "default": true
+    },
+    "delay": {
+      "type": "number",
+      "default": 2000
+    },
+    "speed": {
+      "type": "number",
+      "default": 400
+    },
+    "infiniteLoop": {
+      "type": "boolean",
+      "default": true
+    },
+    "navigation": {
+      "type": "boolean",
+      "default": true
+    },
+    "navIconColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "navBgColor": {
+      "type": "string",
+      "default": "#ccc"
+    },
+    "navBorderRadius": {
+      "type": "string",
+      "default": "5%"
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "dotsActiveColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "dotsColor": {
+      "type": "string",
+      "default": "#ccc"
+    },
+    "imageRatio": {
+      "type": "string",
+      "default": "auto"
+    },
+    "imageHoverStyle": {
+      "type": "string",
+      "default": "none"
+    },
+    "imageBorderRadius": {
+      "type": "string",
+      "default": "0px"
+    }
+  },
+  "example": {},
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css",
+    "blockwheels-swiper"
+  ]
+}

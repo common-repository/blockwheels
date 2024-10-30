@@ -1,0 +1,114 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/video-box",
+  "description": "Embed a video from your media library or a upload new one.",
+  "title": "Video Box",
+  "category": "blockwheels",
+  "textdomain": "blockwheels",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "videoBoxId": {
+      "type": "string"
+    },
+    "videoType": {
+      "type": "string",
+      "enum": [
+        "youtube",
+        "vimeo",
+        "daily",
+        "self"
+      ],
+      "default": "youtube"
+    },
+    "videoID": {
+      "type": "integer"
+    },
+    "videoURL": {
+      "type": "string"
+    },
+    "autoPlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "controls": {
+      "type": "boolean",
+      "default": true
+    },
+    "relatedVideos": {
+      "type": "boolean",
+      "default": false
+    },
+    "mute": {
+      "type": "boolean",
+      "default": false
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    }
+  },
+  "example": {
+    "attributes": {
+      "videoType": "youtube",
+      "videoURL": "https://www.youtube.com/watch?v=Dkjuit6_Igk"
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

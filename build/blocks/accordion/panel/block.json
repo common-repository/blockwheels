@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/accordion-panel",
+  "title": "Panel",
+  "category": "blockwheels",
+  "textdomain": "blockwheels",
+  "supports": {
+    "reusable": false,
+    "html": false
+  },
+  "parent": [
+    "blockwheels/accordion"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "source": "html",
+      "selector": ".blockwheels-accordion-title-label",
+      "default": "Awesome Heading"
+    },
+    "headingTag": {
+      "type": "string",
+      "default": "H4"
+    },
+    "description": {
+      "type": "string",
+      "source": "html",
+      "selector": ".blockwheels-accordion-content p"
+    }
+  },
+  "usesContext": [
+    "blockwheels/accordion-title-tag"
+  ],
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

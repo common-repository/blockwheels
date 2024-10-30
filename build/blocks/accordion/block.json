@@ -1,0 +1,205 @@
+{
+  "apiVersion": 2,
+  "name": "blockwheels/accordion",
+  "title": "Accordion",
+  "category": "blockwheels",
+  "description": "Organize content within collapsible accordion items.",
+  "icon": "groups",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "blockwheels",
+  "providesContext": {
+    "blockwheels/accordion-title-tag": "titleTag"
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "H4"
+    },
+    "titleFontFamily": {
+      "type": "string"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "titleFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "titleFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "titleLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "titleFontColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "titleBgColor": {
+      "type": "string",
+      "default": "#F0EBE1"
+    },
+    "titlePadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "5px",
+          "right": "10px",
+          "bottom": "5px",
+          "left": "10px"
+        },
+        "tablet": {
+          "top": "5px",
+          "right": "10px",
+          "bottom": "5px",
+          "left": "10px"
+        },
+        "mobile": {
+          "top": "5px",
+          "right": "10px",
+          "bottom": "5px",
+          "left": "10px"
+        }
+      }
+    },
+    "descFontFamily": {
+      "type": "string"
+    },
+    "descFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "descFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "descFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "descLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "descFontColor": {
+      "type": "string",
+      "default": "#212121"
+    },
+    "descBgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "descPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "5px",
+          "right": "10px",
+          "bottom": "5px",
+          "left": "10px"
+        },
+        "tablet": {
+          "top": "5px",
+          "right": "10px",
+          "bottom": "5px",
+          "left": "10px"
+        },
+        "mobile": {
+          "top": "5px",
+          "right": "10px",
+          "bottom": "5px",
+          "left": "10px"
+        }
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "blockwheels/accordion-panel",
+        "attributes": {
+          "heading": "Why do we use it?",
+          "headingTag": "h4",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque nibh, tincidunt ut facilisis vitae, ullamcorper sit amet lectus. Proin porta vulputate purus."
+        }
+      },
+      {
+        "name": "blockwheels/accordion-panel",
+        "attributes": {
+          "heading": "Is BlockWheels free?",
+          "headingTag": "h4",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque nibh, tincidunt ut facilisis vitae, ullamcorper sit amet lectus. Proin porta vulputate purus."
+        }
+      }
+    ]
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

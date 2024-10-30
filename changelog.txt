@@ -1,0 +1,9 @@
+== Changelog ==
+
+= 1.0.1 - 29 August 2024 =
+* Fix - Accordition title and description letter case.
+* Fix - Grid Posts categories border radious.
+* Fix - Repalce React FontIconPicker icon with SVG icon.
+
+= 1.0.0 - 29 April 2024 =
+* Initial release

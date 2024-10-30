@@ -1,0 +1,404 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/grid-posts",
+  "title": "Grid Posts",
+  "category": "blockwheels",
+  "icon": "groups",
+  "description": "Display and filter latest posts in grid style.",
+  "keywords": [
+    "Latest",
+    "Posts",
+    "Grid"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "blockwheels",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "numberOfPosts": {
+      "type": "number",
+      "default": 6
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "columns": {
+      "type": "object",
+      "default": {
+        "desktop": 2,
+        "tablet": 2,
+        "mobile": 1
+      }
+    },
+    "colBorderRadius": {
+      "type": "string"
+    },
+    "colPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "right": "0px",
+          "bottom": "0px",
+          "left": "0px"
+        }
+      }
+    },
+    "colMargin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "backgroundGradient": {
+      "type": "string"
+    },
+    "enableFeaturedImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableCategory": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableMeta": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableExcerpt": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableReadMore": {
+      "type": "boolean",
+      "default": false
+    },
+    "contentAlign": {
+      "type": "object",
+      "default": {
+        "desktop": "left",
+        "tablet": "left",
+        "mobile": "left"
+      }
+    },
+    "contentPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "25px",
+          "right": "15px",
+          "bottom": "15px",
+          "left": "15px"
+        },
+        "tablet": {
+          "top": "25px",
+          "right": "15px",
+          "bottom": "15px",
+          "left": "15px"
+        },
+        "mobile": {
+          "top": "25px",
+          "right": "15px",
+          "bottom": "15px",
+          "left": "15px"
+        }
+      }
+    },
+    "enableImagePlaceholder": {
+      "type": "boolean",
+      "default": true
+    },
+    "imageRatio": {
+      "type": "string",
+      "default": "4x3"
+    },
+    "imageHoverStyle": {
+      "type": "string",
+      "default": "none"
+    },
+    "categoriesBorderRadius": {
+      "type": "string",
+      "default": "3px"
+    },
+    "categoriesFontFamily": {
+      "type": "string"
+    },
+    "categoriesFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "categoriesFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "categoriesFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "categoriesLetterCase": {
+      "type": "string",
+      "default": "uppercase"
+    },
+    "categoriesFontColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "categoriesBgColor": {
+      "type": "string",
+      "default": "#7456f1"
+    },
+    "categoriesPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "2px",
+          "right": "10px",
+          "bottom": "2px",
+          "left": "10px"
+        },
+        "tablet": {
+          "top": "2px",
+          "right": "10px",
+          "bottom": "2px",
+          "left": "10px"
+        },
+        "mobile": {
+          "top": "2px",
+          "right": "10px",
+          "bottom": "2px",
+          "left": "10px"
+        }
+      }
+    },
+    "titleHtmlTag": {
+      "type": "string",
+      "default": "h4"
+    },
+    "titleFontFamily": {
+      "type": "string"
+    },
+    "titleFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "titleFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "titleFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "titleLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "titleFontColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "titleHoverFontColor": {
+      "type": "string"
+    },
+    "metaAuthorEnable": {
+      "type": "boolean",
+      "default": true
+    },
+    "metaDateEnable": {
+      "type": "boolean",
+      "default": true
+    },
+    "metaCategoryEnable": {
+      "type": "boolean",
+      "default": false
+    },
+    "metaCommentsEnable": {
+      "type": "boolean",
+      "default": false
+    },
+    "metaFontFamily": {
+      "type": "string"
+    },
+    "metaFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "metaFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "metaFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "metaLetterCase": {
+      "type": "string",
+      "default": "capitalize"
+    },
+    "metaFontColor": {
+      "type": "string",
+      "default": "#abb8c3"
+    },
+    "excerptFontFamily": {
+      "type": "string"
+    },
+    "excerptFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "excerptFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "excerptFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "excerptLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "excerptFontColor": {
+      "type": "string",
+      "default": "#565656"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Read More"
+    },
+    "buttonStyle": {
+      "type": "string",
+      "default": "unboxed"
+    },
+    "buttonFontFamily": {
+      "type": "string"
+    },
+    "buttonFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "buttonFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "buttonFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "buttonLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "buttonFontColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "buttonHoverFontColor": {
+      "type": "string"
+    },
+    "buttonBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "buttonPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "10px",
+          "right": "15px",
+          "bottom": "10px",
+          "left": "15px"
+        },
+        "tablet": {
+          "top": "10px",
+          "right": "15px",
+          "bottom": "10px",
+          "left": "15px"
+        },
+        "mobile": {
+          "top": "10px",
+          "right": "15px",
+          "bottom": "10px",
+          "left": "15px"
+        }
+      }
+    },
+    "buttonBorderRadius": {
+      "type": "string",
+      "default": "3px"
+    }
+  },
+  "example": {
+    "attributes": {
+      "numberOfPosts": 1
+    }
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}

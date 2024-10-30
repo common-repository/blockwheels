@@ -1,0 +1,276 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blockwheels/services",
+  "title": "services",
+  "category": "blockwheels",
+  "icon": "groups",
+  "description": "Services to display.",
+  "keywords": [
+    "Services",
+    "Blurb",
+    "Grid"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "textdomain": "blockwheels",
+  "providesContext": {
+    "blockwheels/services-content-align": "contentAlign",
+    "blockwheels/services-show-image": "enableImage",
+    "blockwheels/services-show-name": "enableName",
+    "blockwheels/services-show-description": "enableDescription",
+    "blockwheels/services-show-buttons": "enableButtons"
+  },
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "postId": {
+      "type": "integer"
+    },
+    "columns": {
+      "type": "object",
+      "default": {
+        "desktop": 3,
+        "tablet": 2,
+        "mobile": 1
+      }
+    },
+    "colBorderRadius": {
+      "type": "string",
+      "default": "4px"
+    },
+    "colPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        },
+        "tablet": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        },
+        "mobile": {
+          "top": "20px",
+          "right": "20px",
+          "bottom": "20px",
+          "left": "20px"
+        }
+      }
+    },
+    "colMargin": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "tablet": {
+          "top": "0px",
+          "bottom": "0px"
+        },
+        "mobile": {
+          "top": "0px",
+          "bottom": "0px"
+        }
+      }
+    },
+    "colBgColor": {
+      "type": "string"
+    },
+    "colBgGradient": {
+      "type": "string"
+    },
+    "iconSize": {
+      "type": "object",
+      "default": {
+        "desktop": "40px",
+        "tablet": "40px",
+        "mobile": "40px"
+      }
+    },
+    "iconPadding": {
+      "type": "object",
+      "default": {
+        "desktop": "15px",
+        "tablet": "15px",
+        "mobile": "15px"
+      }
+    },
+    "imageRadius": {
+      "type": "string",
+      "default": "50%"
+    },
+    "nameFontFamily": {
+      "type": "string"
+    },
+    "nameFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "nameFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "nameFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "nameLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "nameFontColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "descFontFamily": {
+      "type": "string"
+    },
+    "descFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "descFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "descFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "descLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "descFontColor": {
+      "type": "string",
+      "default": "#565656"
+    },
+    "buttonBorderRadius": {
+      "type": "string"
+    },
+    "buttonFontColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "buttonBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "buttonFontFamily": {
+      "type": "string"
+    },
+    "buttonFontWeight": {
+      "type": "string",
+      "default": "400"
+    },
+    "buttonFontStyle": {
+      "type": "string",
+      "default": "normal"
+    },
+    "buttonFontSize": {
+      "type": "object",
+      "default": {
+        "desktop": "",
+        "tablet": "",
+        "mobile": ""
+      }
+    },
+    "buttonLetterCase": {
+      "type": "string",
+      "default": "none"
+    },
+    "buttonPadding": {
+      "type": "object",
+      "default": {
+        "desktop": {
+          "top": "10px",
+          "right": "15px",
+          "bottom": "10px",
+          "left": "15px"
+        },
+        "tablet": {
+          "top": "10px",
+          "right": "15px",
+          "bottom": "10px",
+          "left": "15px"
+        },
+        "mobile": {
+          "top": "10px",
+          "right": "15px",
+          "bottom": "10px",
+          "left": "15px"
+        }
+      }
+    },
+    "enableImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableName": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableButtons": {
+      "type": "boolean",
+      "default": true
+    },
+    "contentAlign": {
+      "type": "object",
+      "default": {
+        "desktop": "center",
+        "tablet": "center",
+        "mobile": "center"
+      }
+    }
+  },
+  "example": {
+    "innerBlocks": [
+      {
+        "name": "blockwheels/service",
+        "attributes": {
+          "name": "John Doe",
+          "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque nibh, tincidunt ut facilisis vitae, ullamcorper sit amet lectus. Proin porta vulputate purus.",
+          "url": "https://picsum.photos/id/1012/300/200",
+          "buttons": [
+            {
+              "icon": "Read"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "editorScript": [
+    "file:index.js"
+  ],
+  "editorStyle": [
+    "file:index.css"
+  ],
+  "style": [
+    "file:style-index.css"
+  ]
+}
